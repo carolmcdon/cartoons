@@ -1,0 +1,54 @@
+html {
+    background-color: rgb(235, 222, 204);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(212, 56, 45);
+    font-size: 50px;
+}
+
+body {
+    margin: 0px;
+}
+
+nav {
+    background-color: rgb(221, 148, 89);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+}
+
+li {
+    color: rgb(212, 56, 45);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+  }
+
+#genre #drama:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  /* li {
+    float: left;
+    display: block;
+    color: rgb(215, 106, 23);
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+  } */
+
+  /* nav {
+    overflow: hidden;
+    background-color: rgb(233, 195, 195);
+    position: fixed; /* Set the navbar to fixed position */
+    /* top: 120px; Position the navbar at the top of the page */
+    /* width: 100%; Full width */
+  /* } */
